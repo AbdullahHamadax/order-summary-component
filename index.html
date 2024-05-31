@@ -46,6 +46,17 @@
   <body
     class="min-h-screen bg-Pale_blue flex flex-col gap-2 items-center justify-center"
   >
+    <picture class="">
+      <source
+        srcset="images/pattern-background-desktop.svg"
+        media="(min-width: 640px)"
+      />
+      <img
+        src="images/pattern-background-mobile.svg"
+        alt="wavy image background"
+        class="absolute left-0 right-0 top-[2px] w-[639.27px] h-[194px]"
+      />
+    </picture>
     <div
       class="bg-white w-[327px] h-[567px] gap-6 rounded-2xl flex flex-col text-center items-center drop-shadow-xl"
     >
@@ -55,7 +66,9 @@
         class="rounded-tr-2xl rounded-tl-2xl w-full"
       />
       <div class="flex flex-col gap-5 text-center">
-        <h1 class="font-Red_Hat_Display text-2xl text-Dark_blue font-black">
+        <h1
+          class="font-Red_Hat_Display text-2xl mt-2 text-Dark_blue font-black"
+        >
           Order Summary
         </h1>
         <p
